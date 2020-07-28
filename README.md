@@ -1,1 +1,1 @@
-# Example with TCP and UDP
+# Example with Socket (TCP and UDP)
