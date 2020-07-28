@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPServer", "TCPServer\TCPServer.csproj", "{33FD47D4-9F12-4EDC-A80B-26D319729A33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TCPServer", "TCPServer\TCPServer.csproj", "{33FD47D4-9F12-4EDC-A80B-26D319729A33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPClient", "TCPClient\TCPClient.csproj", "{9A0A3FCE-8E7F-4D59-B00F-32A965B6D3A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TCPClient", "TCPClient\TCPClient.csproj", "{9A0A3FCE-8E7F-4D59-B00F-32A965B6D3A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDPServer", "UDPServer\UDPServer.csproj", "{8FBFE801-C18D-45A7-84DF-FBE2AA1000AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UDPServer", "UDPServer\UDPServer.csproj", "{8FBFE801-C18D-45A7-84DF-FBE2AA1000AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDPClient", "UDPClient\UDPClient.csproj", "{929B62CD-0F26-4857-962B-9F1864001FE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UDPClient", "UDPClient\UDPClient.csproj", "{929B62CD-0F26-4857-962B-9F1864001FE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithFile_UdpServer", "WorkingWithFile_UdpServer\WorkingWithFile_UdpServer.csproj", "{A868C3E6-DB3A-47A8-A09C-DA811D7A8386}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithFile_UdpClient", "WorkingWithFile_UdpClient\WorkingWithFile_UdpClient.csproj", "{2EEFB6C8-019E-4F73-B463-7E0E79864DF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{929B62CD-0F26-4857-962B-9F1864001FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{929B62CD-0F26-4857-962B-9F1864001FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{929B62CD-0F26-4857-962B-9F1864001FE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A868C3E6-DB3A-47A8-A09C-DA811D7A8386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A868C3E6-DB3A-47A8-A09C-DA811D7A8386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A868C3E6-DB3A-47A8-A09C-DA811D7A8386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A868C3E6-DB3A-47A8-A09C-DA811D7A8386}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EEFB6C8-019E-4F73-B463-7E0E79864DF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EEFB6C8-019E-4F73-B463-7E0E79864DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EEFB6C8-019E-4F73-B463-7E0E79864DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EEFB6C8-019E-4F73-B463-7E0E79864DF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
